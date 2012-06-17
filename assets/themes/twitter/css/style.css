@@ -68,4 +68,16 @@ html, body {
 	border:1px solid #4C964D;
 	color:#FFF;
 }
-	
+
+/* Custom styles ====================================================*/
+
+.about section{
+  float:left
+}
+.about .introduction{
+ width: 70%;
+ margin-right: 25px;
+}
+.about .profile-links ul {
+   list-style:none;
+}
