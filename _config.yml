@@ -10,7 +10,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : NoteBook
-tagline: There are 10 types of people in the world: those who understand binary and those who don’t.
+tagline: There are 10 types of people in the world - those who understand binary and those who don’t.
 author :
   name : Abhishek Anand
   email : r3d.d7a90n@gmail.com
