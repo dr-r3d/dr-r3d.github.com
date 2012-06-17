@@ -1,0 +1,27 @@
+---
+title : About Me
+header : About Me
+group: navigation
+layout: page
+---
+{% include JB/setup %}
+<div class='about'>
+  <section class='introduction'>
+  <p>
+    For you who don't know me, my name is Abhishek Anand and work as a 
+    Ruby on Rails developer at <a
+      href='http://www.sourcebits.com'>Sourcebits, Bangalore</a>. I love to hack 
+    interseting things and contribute to opensource. Check out <a href='https://github.com/dr-r3d'>my github 
+      profile</a> for any thing that may interests you
+    </p>
+  </section>
+  <section class='profile-links'>
+		<ul>
+      <header>{{ site.author.name }}</header>
+			<li class="github"><a href="http://github.com/{{ site.author.github }}/" rel="me">github.com/{{ site.author.github }}</a></li>
+			<li class="twitter"><a href="http://twitter.com/{{ site.author.twitter }}/" rel="me">twitter.com/{{ site.author.twitter }}</a></li>
+      <li class="contact"><a href='mail:to{{ site.author.email }}'>mail me</a></li>
+		</ul>
+
+  </section>
+</div>
